@@ -1,0 +1,48 @@
+body {
+  background-color: rgba(201, 200, 200, 0.992);
+  font-family: "Bungee", sans-serif;
+  background-position: 5%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 55px;
+}
+h1 {
+  text-align: center;
+  color: rgb(3, 3, 3);
+  border: 3px solid black;
+  font-family: "Bungee", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+}
+
+p,
+h3,
+ul,
+table {
+  color: rgb(0, 0, 0);
+  font-family: "Lato", sans-serif;
+}
+
+header img {
+  border: 30px solid #000000;
+  border-radius: 50%;
+}
+footer {
+  background-color: rgb(94, 93, 93);
+  border-radius: 10%;
+  color: aliceblue;
+  margin: 5%;
+}
+ul {
+  list-style-type: circle;
+}
