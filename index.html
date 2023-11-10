@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="fr">
     <title>Mon CV en ligne</title>
     <link rel="stylesheet" href="style.css">
     <link
@@ -28,78 +28,94 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
   </head>
 
 <div class="page">
-<header>
+    
+ <header>
   <!--c'est l'en tête de mon cv cet à dire la photo et mon nom prénom-->
-  <p style="float: left">
-    <img src="img/1671112687206.jpg" alt="lpetit" width="250" >
-  </p>
-  
-<h1>Louane Petit</h1>
+<div class="banderole">
+  <div class="banderole" id="img"><img src="img/1671112687206.jpg" alt="lpetit" width="250">
+  </div>
+  <div class="banderole" id="h1"><h1>Louane Petit</h1></div>
+ </header>
 
-</header>
-<div style="clear: both"></div>
 <body>
+ <div class="container">
+   <section class="info">
+    <div class="banderole" id="h1info"><!--section info-->
+   <h1>Recherche Alternance en communication graphique et UX-UI design</h1></div>
+ </div>
+  </section>
 
-<section>
-  <!--section info-->
-  <h1>Recherche Alternance en communication graphique et UX-UI design</h1>
+  <div class="banner-container">
+    <div class="banner">
+        <p> <b>L'Alternante qui vous manque dans votre entreprise ! Une fille aux qualités multiple et au talent immense </b> </p>
+    </div>
+</div>
+
+
+
+
+<div class="gallery">
+  <div class="box" id="box1">
+    <section>
+    <!--exprérience pro-->
+    <h2>Expérience Professionnelle</h2>
+    <h3>
+     Alternance - Assistante Commerciale Aout 2022- Aout 2023
+      <a
+        href="https://www.tryba.com/espace-conseil/76/tryba-sotteville-les-rouen/"
+        target="_blank"
+        >TRYBA Sotteville les Rouen
+      </a>
+    </h3>
+    <ul>
+      <li>
+        Assistanat commerciale (suivi dossier client, gestion d'agenda et
+        rendez-vous)
+      </li>
+      <li>Gestion d'une boutique</li>
+    </ul>
+   </section>
+   <section class="formation">
+    <!--formation-->
+   <h2>Formation</h2>
+    <h3>Bachelor chargée de communication graphique -<a href="https://normandiewebschool.fr/" target="_blank">Normandie Web school</a></h3>
+  
+    <p><strong>Octobre 2023-...</strong></p>
+    <ul>
+      <li>
+        Création de contenu graphique et digital (photo, vidéo, Chartes
+        graphique, Illustration..)
+      </li>
+      <li>Développement web ( site e-commerce, portfolio et CV en ligne)</li>
+      <li>gestion de projet digital</li>
+    </ul>
+    <h3>Titre Attachée de Direction -
+      <a href="https://www.pigier.com/performance-rouen/nos-formations"
+        target="_blank">
+        Pigier</a> </h3>
+    <p><strong>Septembre 2022- Juillet 2023</strong></p>
+    <ul>
+      <li>Assistanat et budgétisation</li>
+      <li>Gestion de projet</li>
+      <li>Management d'équipe</li>
+      <li>Option communication</li>
+    </ul>
+    <h3>Baccalauréat - Lycée Galilée</h3>
+    <p><strong>2022</strong></p>
+   </section>
+</div>
  
-</section>
 
-<div class="container">
+ 
+<div class="box" id="box2">
 
-<section>
-  <!--exprérience pro-->
-  <h2>Expérience Professionnelle</h2>
-  <h3>
-    Assistante Commerciale Aout 2022- Aout 2023 - assistante commerciale -
-    <a
-      href="https://www.tryba.com/espace-conseil/76/tryba-sotteville-les-rouen/"
-      target="_blank"
-      >TRYBA Sotteville les Rouen
-    </a>
-  </h3>
-  <ul>
-    <li>
-      Assistanat commerciale (suivi dossier client, gestion d'agenda et
-      rendez-vous)
-    </li>
-    <li>Gestion d'une boutique</li>
-  </ul>
-</section>
-<section class="formation">
-  <!--formation-->
- <h2>Formation</h2>
-  <h3>Bachelor chargée de communication graphique -<a href="https://normandiewebschool.fr/" target="_blank">Normandie Web school</a></h3>
-
-  <p><strong>Octobre 2023-...</strong></p>
-  <ul>
-    <li>
-      Création de contenu graphique et digital (photo, vidéo, Chartes
-      graphique, Illustration..)
-    </li>
-    <li>Développement web ( site e-commerce, portfolio et CV en ligne)</li>
-    <li>gestion de projet digital</li>
-  </ul>
-  <h3>Titre Attachée de Direction -
-    <a href="https://www.pigier.com/performance-rouen/nos-formations"
-      target="_blank">
-      Pigier</a> </h3>
-  <p><strong>Septembre 2022- Juillet 2023</strong></p>
-  <ul>
-    <li>Assistanat et budgétisation</li>
-    <li>Gestion de projet</li>
-    <li>Management d'équipe</li>
-    <li>Option communication</li>
-  </ul>
-  <h3>Baccalauréat - Lycée Galilée</h3>
-  <p><strong>2022</strong></p>
-</section>
-<div class="column">
-<section>
+ <section>
   <!--projet pro-->
   <h2>Projet Professionnel</h2>
   <h3>Egerie et design UI marque de vêtement et coaching - The Process</h3>
@@ -119,21 +135,21 @@
   <p>création (branding, réseaux sociaux, visuel et logo) d'une association
     e-sport au sein d'un BDE</p>
   
-</section>
+ </section>
 
-<section>
+ <section>
   <!--compétences-->
   <h2>Compétences</h2>
  
-<table> 
-<tr>
+ <table> 
+ <tr>
  <th>Compétence</th>
  <th>Niveau /5</th>
-</tr>
+ </tr>
 
    <h3>HardSkills</h3>
-<tr>
-<th>Suite Adobe
+ <tr>
+ <th>Suite Adobe
  <details>
    <summary>Détails</summary>
     <ul>
@@ -142,37 +158,37 @@
       <li>illustrator</li>
     </ul>
   </details> 
-</th>
+ </th>
   <td>⭐⭐⭐</td>
-</tr>
+ </tr>
 
-<tr>
+ <tr>
  <th>Figma</th>
  <td>⭐⭐⭐</td>
-</tr>
+ </tr>
 
-<tr>
+ <tr>
  <th>Pack Microsoft Office</th>
  <td>⭐⭐⭐</td>
-</tr>
+ </tr>
 
-<tr>
+ <tr>
  <th>Wordpress</th>
  <td>⭐⭐</td>
-</tr>
+ </tr>
 
-<tr>
+ <tr>
  <th>Canva</th>
  <td>⭐⭐⭐⭐</td>
-</tr>
+ </tr>
 
-<tr>
+ <tr>
  <th>Gestion de projet</th>
  <td>⭐⭐⭐</td>
-</tr> 
+ </tr> 
 
-<tr>
-<th>UX-UI design
+ <tr>
+ <th>UX-UI design
   <details>
     <summary>Détails</summary>
     <ul>
@@ -182,27 +198,25 @@
     </ul>
   </details>
   <td>⭐⭐⭐⭐</td></th>
-</tr>
+ </tr>
 
-<tr>
+ <tr>
  <th>Anglais</th>
  <td>⭐⭐⭐⭐⭐</td>
-</tr>
-</table>
+ </tr>
+ </table>
 
-<h3>Soft Skills</h3>
+ <h3>Soft Skills</h3>
 
-<ul>
+ <ul>
   <li>Créative</li>
   <li>Empathique</li>
   <li>A l'écoute</li>
-</ul>
+ </ul>
 </div>
-
-
-
+</div>
 </section>
-</div>
+
 <footer class="info et contact">
   <!--info et contact-->
   <h2><center>Contactez-moi</center></h2>
@@ -221,11 +235,10 @@
       
     </td>
   </tr>
-</div>
    </body>
-
+</div>
 </footer>
-
+</div>
   
 
 </html>
