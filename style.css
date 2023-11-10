@@ -32,13 +32,6 @@ body {
   }
 }
 
-.container {
-  max-width: 800px;
-
-  padding: 0%;
-
-}
-
 th {
   text-align: left;
 }
@@ -132,12 +125,12 @@ margin: 10px;
   height: auto;
 }
 #box1 {
-  order: 2; /* Le bloc 1 sera affiché en troisième position */
+  order: 2; 
 
 }
 
 #box2 {
-  order: 1; /* Le bloc 2 sera affiché en première position */
+  order: 1; 
 }
 
 .banderole {
