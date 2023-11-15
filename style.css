@@ -18,7 +18,7 @@ body {
 .banner {
   width: 100%;
   white-space: nowrap; /* Empêche le texte de passer à la ligne */
-  animation: scroll 7s linear infinite; /* 10s de défilement linéaire infini */
+  animation: scroll 25s linear infinite; /* 10s de défilement linéaire infini */
   font-size: 25px;
 
 }
